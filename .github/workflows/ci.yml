@@ -45,6 +45,7 @@ jobs:
         with:
           name: wnix
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+          useDaemon: false  # use store scan so substituted paths are also pushed
 
       - name: Build ${{ matrix.package }}
         run: nix build .#${{ matrix.package }} --print-build-logs
