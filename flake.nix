@@ -28,7 +28,7 @@
       in
       {
         inherit packages;
-        checks = packages;
+        checks = packages // (import ./modules/seatsurfing/tests { inherit pkgs self; });
       }
     ))
     //

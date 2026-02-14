@@ -28,16 +28,16 @@ in
 
     package = mkOption {
       type = types.package;
-      default = seatsurfing.server;
-      defaultText = lib.literalExpression "seatsurfing.server";
+      default = seatsurfing.seatsurfing-server;
+      defaultText = lib.literalExpression "seatsurfing.seatsurfing-server";
       description = "The Seatsurfing server package to use.";
     };
 
     ui = {
       package = mkOption {
         type = types.package;
-        default = seatsurfing.ui;
-        defaultText = lib.literalExpression "seatsurfing.ui";
+        default = seatsurfing.seatsurfing-ui;
+        defaultText = lib.literalExpression "seatsurfing.seatsurfing-ui";
         description = "The Seatsurfing UI package to use.";
       };
     };
