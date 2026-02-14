@@ -1,6 +1,6 @@
-# packages-and-services
+# Flake for packages and modules
 
-![CI](https://github.com/wnix/packages-and-services/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/wnix/packages/actions/workflows/ci.yml/badge.svg)
 
 
 
