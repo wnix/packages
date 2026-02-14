@@ -1,5 +1,9 @@
 # packages-and-services
 
+![CI](https://github.com/wnix/packages-and-services/actions/workflows/ci.yml/badge.svg)
+
+
+
 Custom Nix packages and NixOS modules for software we use but that is not (yet) available in nixpkgs.
 
 Follows the nixpkgs convention: packages live under `pkgs/<name>/`, modules under `modules/<name>/`.
