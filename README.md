@@ -10,8 +10,8 @@ Follows the nixpkgs convention: packages live under `pkgs/<name>/`, modules unde
 
 ## Packages
 
-- `seatsurfing-server` -- Go backend + healthcheck
-- `seatsurfing-ui` -- Next.js frontend (static export)
+- `seatsurfing-server` -- Go backend + healthcheck for ([seatsurfing project](https://seatsurfing.io/))
+- `seatsurfing-ui` -- Next.js frontend (static export) for ([seatsurfing project](https://seatsurfing.io/))
 - `harmonograph` -- [App::GUI::Harmonograph](https://metacpan.org/pod/App::GUI::Harmonograph): wxPerl GUI for drawing with pendula (discovered at [Chemnitzer Linux-Tage 2026](https://chemnitzer.linux-tage.de/))
 - `fet` -- [FET](https://lalescu.ro/liviu/fet/): free software for automatically scheduling timetables (schools, high schools, universities); fast timetabling algorithm; [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html)
 
