@@ -22,10 +22,11 @@
         pkgs = nixpkgs.legacyPackages.${system};
         seatsurfing = pkgs.callPackage ./pkgs/seatsurfing { };
         harmonograph = pkgs.callPackage ./pkgs/harmonograph { };
+        fet = pkgs.callPackage ./pkgs/fet { };
         packages = {
           seatsurfing-server = seatsurfing.server;
           seatsurfing-ui = seatsurfing.ui;
-          inherit harmonograph;
+          inherit harmonograph fet;
         };
       in
       {

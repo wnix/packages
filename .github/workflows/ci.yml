@@ -35,6 +35,7 @@ jobs:
           - seatsurfing-server
           - seatsurfing-ui
           - harmonograph
+          - fet
     steps:
       - uses: actions/checkout@v6
 
