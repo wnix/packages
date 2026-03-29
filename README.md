@@ -12,6 +12,7 @@ Follows the nixpkgs convention: packages live under `pkgs/<name>/`, modules unde
 
 - `seatsurfing-server` -- Go backend + healthcheck
 - `seatsurfing-ui` -- Next.js frontend (static export)
+- `harmonograph` -- [App::GUI::Harmonograph](https://metacpan.org/pod/App::GUI::Harmonograph): wxPerl GUI for drawing with pendula (discovered at [Chemnitzer Linux-Tage 2026](https://chemnitzer.linux-tage.de/))
 
 ## NixOS modules
 
@@ -29,6 +30,7 @@ Follows the nixpkgs convention: packages live under `pkgs/<name>/`, modules unde
 ```bash
 nix build .#seatsurfing-server
 nix build .#seatsurfing-ui
+nix build .#harmonograph
 ```
 
 ## Binary cache
