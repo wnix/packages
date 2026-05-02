@@ -23,10 +23,11 @@
         seatsurfing = pkgs.callPackage ./pkgs/seatsurfing { };
         harmonograph = pkgs.callPackage ./pkgs/harmonograph { };
         fet = pkgs.callPackage ./pkgs/fet { };
+        jsonschema2shacl = pkgs.callPackage ./pkgs/jsonschema2shacl { };
         packages = {
           seatsurfing-server = seatsurfing.server;
           seatsurfing-ui = seatsurfing.ui;
-          inherit harmonograph fet;
+          inherit harmonograph fet jsonschema2shacl;
         };
       in
       {
