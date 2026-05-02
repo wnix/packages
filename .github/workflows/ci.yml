@@ -36,6 +36,7 @@ jobs:
           - seatsurfing-ui
           - harmonograph
           - fet
+          - jsonschema2shacl
     steps:
       - uses: actions/checkout@v6
 
